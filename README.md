@@ -42,7 +42,7 @@ source krakenex/bin/activate
 pip install -r requirements.txt
 ```
 
-### Re-activate virtual environment every time you need to extract data
+### Reactivate the virtual environment each time you need to use the trading bot
 ```bash
 source krakenex/bin/activate
 ```
