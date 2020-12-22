@@ -90,8 +90,8 @@ DECISION	NONE
 ```
 
 ### Default algorithm settings
-The following settings were optimized based on the programmatic algorithm training on the historical data of several 
-cryptocurrencies:
+The following settings were optimized based on the programmatic [algorithm training](https://github.com/SchniderB/trading-bot-training) 
+on the historical data of several cryptocurrencies:
 - `drop_rate`: Price drop percentage value over a `drop_time_frame` that will trigger a buy order. Default 0.02 (i.e. 2%)
 - `drop_time_frame`: History time frame on which the price drop is assessed, e.g. a `drop_rate` of 2% will trigger the buy 
 condition only if the price dropped by at least 2% on this specified period of time. Default 120 (i.e. 2 hours)
